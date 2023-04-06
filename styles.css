@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 
@@ -178,6 +178,12 @@ input[type = text]:focus, [type = email]:focus {
     width: 80%;
     height: auto;
     }
+	
+    body {
+    background-color: black;
+    max-width: 100%;
+}
+
 
     #forms{
         display: block;
