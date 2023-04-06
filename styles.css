@@ -1,0 +1,219 @@
+body {
+    background-color: black;
+}
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: yellow;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: yellow;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+i{
+    padding: 10px;
+}
+
+ul{
+    display: block;
+    margin: auto;
+}
+
+li{
+    font-family: 'Anton', sans-serif;
+    font-size: larger;
+    display: inline-block;
+    margin: 2px 10px;
+}
+
+a{
+    color: yellow;
+    display: inline-block;
+    align-items: center;
+    padding: auto;
+    size: 30px;
+}
+
+p{
+    display: inline-block;
+    padding: 0 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    font-weight:lighter;
+    color: black;
+    line-height: 2;
+    margin-top: 250px;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+    margin: 0 auto; 
+    width:250px;
+}
+input [type = submit] {
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
+    color: #f08200;
+    text-shadow: 0px 0px 0px #000;
+}
+
+input[type = text]:focus, [type = email]:focus {
+    background-color: #C308C0;
+  }
+
+  footer{
+    font-family: 'Anton', sans-serif;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 7px;
+  }
+
+#tema{
+    display: inline-block;
+    margin: 100px auto 10px;
+}
+
+
+#logo{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 20%;
+    height: auto;
+}
+
+#menu{
+    display:block;
+    margin: 0 50px;
+}
+
+#cd-cover{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+#bio{
+    background-image: url(imgs/background.jpg);
+}
+
+
+
+
+#band-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    border-radius: 20%;
+    width: 80%;
+    height: auto;
+}
+
+
+
+#contact{
+    margin-top: 130px;
+}
+
+
+#forms{
+    display: block;
+    margin-top: 70px;
+    align-items: center;
+}
+
+#name, #e-mail{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#submit{
+    align-items: center;
+    border-color: #C308C0;
+    border-radius: 10%;
+    padding: 5px 5px;
+    font-family: 'Anton', sans-serif;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+#social-medias{
+    display: inline-block;
+    align-items: center;
+    display: block;
+    padding: auto;
+    margin-top: 85px;
+    text-align: center;
+    
+}
+
+@media (max-width: 600px){
+    #band-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 20%;
+    width: 80%;
+    height: auto;
+    }
+
+    #forms{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    #social-medias{
+        display: inline-block;
+        align-items: center;
+        display: block;
+        padding: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        
+    }
+
+    #video{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 100%;
+	    height: 100%;
+    }
+
+    p{
+        display: inline-block;
+        padding: 0 30px;
+        font-family: 'Anton', sans-serif;
+        font-size: 17px;
+        font-weight:lighter;
+        color: black;
+        line-height: 2;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+}
